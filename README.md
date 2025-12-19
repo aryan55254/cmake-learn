@@ -1,16 +1,9 @@
-## Quick Start (Standard Build)
-
-If you just want to compile the code without any special debugging tools:
-
-```bash
+## quick build start 
 mkdir -p build && cd build
 cmake ..
 cmake --build .
 ./chronos_runner
 
-```
-
----
 
 ## Debugging Modes (The "Safety Gear")
 
