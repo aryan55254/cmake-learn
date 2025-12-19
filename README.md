@@ -1,4 +1,4 @@
-## 🛠️ Quick Start (Standard Build)
+## Quick Start (Standard Build)
 
 If you just want to compile the code without any special debugging tools:
 
@@ -12,7 +12,7 @@ cmake --build .
 
 ---
 
-## 🐞 Debugging Modes (The "Safety Gear")
+## Debugging Modes (The "Safety Gear")
 
 Use these modes when developing or chasing bugs. **Do not use both at the same time.**
 
@@ -50,7 +50,7 @@ cmake --build .
 
 ---
 
-## 🚀 Performance Mode (Release)
+##  Performance Mode (Release)
 
 Use this when you want to measure the **real** speed of the scheduler. This turns off safety checks and turns on compiler optimizations (`-O3`).
 
@@ -72,7 +72,7 @@ cmake --build .
 
 ---
 
-## ⚠️ Troubleshooting & Known Issues
+## Troubleshooting & Known Issues
 
 ### "FATAL: ThreadSanitizer: unexpected memory mapping"
 
@@ -96,7 +96,7 @@ cmake ..
 
 ```
 
-## 📚 Build Options Reference
+## Build Options Reference
 
 | Option | Default | Description |
 | --- | --- | --- |
