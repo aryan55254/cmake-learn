@@ -1,8 +1,11 @@
 ## quick build start 
+
+```bash
 mkdir -p build && cd build
 cmake ..
 cmake --build .
 ./chronos_runner
+```
 
 
 ## Debugging Modes (The "Safety Gear")
